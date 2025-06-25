@@ -24,7 +24,8 @@ jobs:
           pip install -i https://mirrors.aliyun.com/pypi/simple/ \
           requests \
           beautifulsoup4 \
-          lxml
+          lxml \
+          yagmail
           #pip install -r requirements.txt
 
       - name: Run script
